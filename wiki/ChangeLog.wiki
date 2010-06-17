@@ -1,0 +1,54 @@
+#jQuery Frontier Calendar change log.
+
+= jQuery Frontier Calendar Change Log =
+
+<p>
+<b>June 17th, 2010 - Version 1.2:</b>
+<ul>
+        <li>More Bug fixes
+	<li>
+	<b>CSS tweaks</b><br>
+	New CSS attribute for the current day.<br>
+	Arrows on agenda items that span weeks & months.
+	<li>
+	<b>Drag-and-drop agenda items!</b><br>
+	This required a modification to the jQuery Core library to enable drag-and-drop to work correctly in Internet Explorer.
+	If you don't care about IE than you can use an unmodified version of the jQuery Core library. Everything works fine in Chrome, Firefox, Opera, and Safari without the fix.
+	There is a readme file inlcuded with this plugin, <a href="js/jquery-core/README-IE-FIX.TXT">query-frontier-cal-x.x/js/jquery-core/README-IE-FIX.TXT</a>, 
+	that explains what was modified. Only one line was changed so not that big of a deal....
+	
+	<li>
+	<b>The jfcalplugin.addAgendaItem() method changed slightly.</b><br>
+	The new method signature is jfcalplugin.addAgendaItem(calId,title,startDate,endDate,allDay,data,displayProp).
+	The new parameter is the boolean value 'allDay' which did not exist in version 1.1. This is a flag that tells the calendar the agenda item is an all day event. If you want
+	the same exact functionality as version 1.1 then simply pass in 'false'. If you pass in 'true' then the start time will not be displayed on the agenda item.
+	
+	<li>
+	All the getAgendaItem methods return an updated agenda object which inlcudes the allDay flag.
+<code>
+{
+	agendaId: [integer],
+	title: [string]
+	startDate: [Date],
+	endDate: [Date],
+	allDay: [boolean],
+	data: {
+		key1: [value1],
+		key2: [value2],
+		etc...
+	},
+	displayProp: {
+		backgroundColor: [string],
+		foregroundColor: [string]
+	}
+}	
+</code>	
+	<li>
+	<b>The constructor/initialize method changed slightly.</b><br>
+	There is a new boolean parameter called dragAndDropEnabled which allows you to turn off drag-and-drop. This is enabled by default.
+<code>	
+var jfcalplugin = $('selector').jFrontierCal(date,dayClickCallback,agendaClickCallback,agendaDropCallback,dragAndDropEnabled)
+</code>
+	
+</ul>
+</p>
