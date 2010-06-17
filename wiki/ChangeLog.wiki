@@ -15,7 +15,7 @@ Arrows on agenda items that span weeks & months.
 <b>Drag-and-drop agenda items!</b><br>
 This required a modification to the jQuery Core library to enable drag-and-drop to work correctly in Internet Explorer.
 If you don't care about IE than you can use an unmodified version of the jQuery Core library. Everything works fine in Chrome, Firefox, Opera, and Safari without the fix.
-There is a readme file inlcuded with this plugin, <a href="js/jquery-core/README-IE-FIX.TXT">query-frontier-cal-x.x/js/jquery-core/README-IE-FIX.TXT</a>, 
+There is a readme file inlcuded with this plugin, [http://jquery-frontier-calendar.googlecode.com/files/README-IE-FIX.TXT], 
 that explains what was modified. Only one line was changed so not that big of a deal....
 	
 <li>
