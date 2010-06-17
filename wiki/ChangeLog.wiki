@@ -29,20 +29,20 @@ All the getAgendaItem methods return an updated agenda object which inlcudes the
 
 <code>
 {
-	agendaId: {{{[}}}integer{{{]}}},
-	title: {{{[}}}string{{{]}}},
-	startDate: {{{[}}}Date{{{]}}},
-	endDate: {{{[}}}Date{{{]}}},
-	allDay: {{{[}}}boolean{{{]}}},
-	data: {
-		key1: {{{[}}}value1{{{]}}},
-		key2: {{{[}}}value2{{{]}}},
-		etc...
-	},
-	displayProp: {
-		backgroundColor: {{{[}}}string{{{]}}},
-		foregroundColor: {{{[}}}string{{{]}}}
-	}
+   agendaId: {{{[}}}integer{{{]}}},
+   title: {{{[}}}string{{{]}}},
+   startDate: {{{[}}}Date{{{]}}},
+   endDate: {{{[}}}Date{{{]}}},
+   allDay: {{{[}}}boolean{{{]}}},
+   data: {
+      key1: {{{[}}}value1{{{]}}},
+      key2: {{{[}}}value2{{{]}}},
+      etc...
+   },
+   displayProp: {
+      backgroundColor: {{{[}}}string{{{]}}},
+      foregroundColor: {{{[}}}string{{{]}}}
+   }
 }	
 </code>	
 
