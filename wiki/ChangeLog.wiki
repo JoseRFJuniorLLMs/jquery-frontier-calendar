@@ -2,8 +2,7 @@
 
 Change log for plugin...
 
-==June 17th, 2010 - Version 1.2==
-<ul>
+==Version 1.2: June 17th, 2010==
 
 <li>More Bug fixes
 
@@ -53,3 +52,15 @@ There is a new boolean parameter called dragAndDropEnabled which allows you to t
 <code>	
 var jfcalplugin = $('selector').jFrontierCal(date,dayClickCallback,agendaClickCallback,agendaDropCallback,dragAndDropEnabled)
 </code>
+
+
+==Version: 1.1: June 14th==
+<li>Bug fixes</li>
+<li>CSS tweaks</li>
+<li>Basic iCal VEVENT import support.</li>
+
+*(Drag-and-drop coming soon!)*
+
+==Version 1.0: June 9th==
+
+<li>Initial release</li>
