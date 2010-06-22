@@ -14,6 +14,8 @@ Change log for plugin...
 
 <li> New <b>deleteAllAgendaItems(calId)</b> method to delete all agenda items in the calendar.
 
+<li> This version (like 1.2) still requires the jquery core fix for drag-and-drop under IE. I'd like to fix this so it's not required...
+
 <br>
 ==Version 1.2: June 17th, 2010==
 
