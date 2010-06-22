@@ -74,6 +74,7 @@ var jfcalplugin = $('selector').jFrontierCal(date,dayClickCallback,agendaClickCa
 
 *(Drag-and-drop coming soon!)*
 
+<br>
 ==Version 1.0: June 9th==
 
 <li>Initial release</li>
