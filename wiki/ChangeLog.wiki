@@ -8,6 +8,8 @@ Change log for plugin...
 
 <li> Tooltips on agenda items. Use any tooltip library you want. Whatever library you choose it should probably have destroy() tooltip or hide() tooltip methods. See documentation on <b>applyAgendaTooltip(divElm,agendaItem)</b> callback function.
 
+<li> Two additional callback functions for drag-and-drop events, <b>agendaDragStartCallback(eventObj,divElm,agendaItem)</b> and <b>agendaDragStopCallback(eventObj,divElm,agendaItem)</b>. These are fired when dragging starts and dragging stops.
+
 ==Version 1.2: June 17th, 2010==
 
 <li>More Bug fixes
