@@ -14,7 +14,7 @@ Change log for plugin...
 
 <li> New <b>deleteAllAgendaItems(calId)</b> method to delete all agenda items in the calendar.
 
-<li> Updated initialization for <b>applyAgendaTooltip(divElm,agendaItem)</b, <b>agendaDragStartCallback(eventObj,divElm,agendaItem)</b, and <b>agendaDragStopCallback(eventObj,divElm,agendaItem)</b> callbacks.
+<li> Updated initialization for <b>applyAgendaTooltip(divElm,agendaItem)</b>, <b>agendaDragStartCallback(eventObj,divElm,agendaItem)</b, and <b>agendaDragStopCallback(eventObj,divElm,agendaItem)</b> callbacks.
 <code>
 var jfcalplugin = $("#mycal").jFrontierCal({
 	date: new Date(),
