@@ -2,11 +2,11 @@
 
 Change log for plugin...
 
-==Version 1.3: Coming Soon!==
+==Version 1.3: June 22nd, 2010==
 
 <li> Bug fixes
 
-<li> Tooltips on agenda items. Use any tooltip library you want. Whatever library you choose it should probably have destroy() tooltip and/or hide() tooltip methods. See documentation on <b>applyAgendaTooltipCallback(divElm,agendaItem)</b> callback function.
+<li> <b>Tooltips on agenda items.</b> Use any tooltip library you want. Whatever library you choose it should probably have destroy() tooltip and/or hide() tooltip methods. See documentation on <b>applyAgendaTooltipCallback(divElm,agendaItem)</b> callback function.
 
 <img src="http://jquery-frontier-calendar.googlecode.com/files/TooltipTest.png" width="400px">
 
