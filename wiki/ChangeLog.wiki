@@ -8,6 +8,8 @@ Change log for plugin...
 
 <li> Tooltips on agenda items. Use any tooltip library you want. Whatever library you choose it should probably have destroy() tooltip and/or hide() tooltip methods. See documentation on <b>applyAgendaTooltip(divElm,agendaItem)</b> callback function.
 
+<img src="http://jquery-frontier-calendar.googlecode.com/files/Tooltiptest.png" width="400px">
+
 <li> Two additional callback functions for drag events, <b>agendaDragStartCallback(eventObj,divElm,agendaItem)</b> and <b>agendaDragStopCallback(eventObj,divElm,agendaItem)</b>. These are fired when dragging starts and dragging stops on agenda items (if drag-and-drop is enabled.)
 
 <li> New <b>deleteAllAgendaItems(calId)</b> method to delete all agenda items in the calendar.
