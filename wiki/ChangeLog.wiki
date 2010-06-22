@@ -6,7 +6,7 @@ Change log for plugin...
 
 <li> Bug fixes
 
-<li> Tooltips on agenda items. Use any tooltip library you want. Whatever library you choose it should probably have a destroy tooltip or hide tooltip methods. See documentation on <b>applyAgendaTooltip(divElm,agendaItem)</b> callback function.
+<li> Tooltips on agenda items. Use any tooltip library you want. Whatever library you choose it should probably have destroy() tooltip or hide() tooltip methods. See documentation on <b>applyAgendaTooltip(divElm,agendaItem)</b> callback function.
 
 ==Version 1.2: June 17th, 2010==
 
